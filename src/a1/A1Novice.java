@@ -34,7 +34,7 @@ public class A1Novice {
 		
 		
 		
-		System.out.println(firstinitial + "." + " " + lastname + ": " + customertotal );
+		System.out.println(firstinitial + "." + " " + lastname + ": " + String.format("%.2f", customertotal));
 		
 	}
 		scan.close();
