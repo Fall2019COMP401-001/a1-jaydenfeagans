@@ -10,7 +10,7 @@ public class A1Novice {
 
 		// Your code follows here.
 		int customeramount = scan.nextInt();//amount of customers
-		for (int i = 0;i<customeramount; i++) { scan.nextLine();//how much to scan
+		for (int i = 0;i<customeramount; i++) { scan.next();//how much to scan
 		double customertotal = 0;
 		String firstname = null;
 		String lastname = null;
